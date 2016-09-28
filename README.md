@@ -1,5 +1,7 @@
 # Ghost
-Ghost is a lightweight web service made with Vapor.
+[![Build Status](https://travis-ci.org/packatino/ghost.svg?branch=master)](https://travis-ci.org/packatino/ghost)
+
+Ghost is a lightweight web service made with [Vapor](https://github.com/vapor/vapor).
 
 ## Endpoints
 - `/` The root returns a simple HTML page
