@@ -3,6 +3,9 @@
 
 Ghost is a lightweight web service made with [Vapor](https://github.com/vapor/vapor).
 
+## The Dream
+My dream is to create web services with [Swift](https://github.com/apple/swift) that can be built and run on common Linux servers. This little example service is my first step to reach that goal. Feel free to contribute and use it also for your own experiments.
+
 ## Endpoints
 - `/` The root returns a simple HTML page
 - `/hello` returns a hello world string
