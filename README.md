@@ -6,11 +6,6 @@ Ghost is a lightweight web service made with [Vapor](https://github.com/vapor/va
 ## The Dream
 My dream is to create web services with [Swift](https://github.com/apple/swift) that can be built and run on common Linux servers. This little example service is my first step to reach that goal. Feel free to contribute and use it also for your own experiments.
 
-## Endpoints
-- `/` The root returns a simple HTML page
-- `/hello` returns a hello world string
-- `/info` returns a JSON string with infos about the Ghost
-
 
 ## Build and Run
 The Ghost can be build and run on both macOS and Ubuntu.
@@ -31,3 +26,8 @@ Note: This will only work if you have Swift installed on your machine. Read the 
 When the server is running you will reach it on [http://localhost:8181/](http://localhost:8181/).
 
 If you want to use another port you can change it in the server configuration file under [Ghost/Config/servers.json](https://github.com/packatino/ghost/blob/master/Ghost/Config/servers.json).
+
+### Endpoints
+- `/` The root returns a simple HTML page
+- `/hello` returns a hello world string
+- `/info` returns a JSON string with infos about the Ghost
