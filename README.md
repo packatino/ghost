@@ -19,11 +19,13 @@ The Ghost can be build and run on both macOS and Ubuntu.
 If you use Xcode, running the Ghost is really simple. Just open the project file and hit the play button ;-)
 
 ### Using the Command Line (macOS, Ubuntu)
-If you use a Shell, navigate to the directory with the project file and type in the following commands:
+If you use a Shell, navigate to the directory with the project file (*Ghost.xcodeproj*) and type in the following commands:
 
 `$ swift build`
 
 `$ .build/debug/App`
+
+Note: This will only work if you have Swift installed on your machine. Read the [wiki page](https://github.com/packatino/ghost/wiki/Swift-on-Ubuntu) if you need help for installing Swift on Ubuntu!
 
 ## Talk to the Ghost
 When the server is running you will reach it on [http://localhost:8181/](http://localhost:8181/).
