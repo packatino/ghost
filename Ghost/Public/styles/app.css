@@ -17,19 +17,16 @@ body {
 #droplet {
     width: 50px;
     display: inline-block;
-    margin-right: 12px;
     float: none;
 }
 
 .message {
-	position: absolute;
-	width: 512px;
-    height: 64px;
-	text-align: center;
-	top: 50%;
-	left: 50%;
-	margin-left: -256px;
-    margin-top: -32px;
+    position: absolute;
+    width: 512px;
+    height: 50px;
+    text-align: left;
+    top: 50px;
+    left: 50px;
     line-height: 0;
 }
 
@@ -37,14 +34,25 @@ body {
     display: inline-block;
     margin: 0;
     padding: 0;
-    line-height: 64px;
+    line-height: 50px;
     font-family: 'Quicksand';
     font-weight: 500;
     font-size: 36px;
 }
 
-.message img {
-    height: 100%;
-    display: inline-block;
-    float: left;
+.routes {
+    position: absolute;
+    width: 512px;
+    height: 128px;
+    text-align: left;
+    top: 120px;
+    left: 50px;
+    line-height: 0;
+}
+
+.routes li {
+    line-height: 28px;
+    font-family: 'Quicksand';
+    font-weight: 250;
+    font-size: 18px;
 }

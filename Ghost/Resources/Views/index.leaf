@@ -11,4 +11,11 @@
     <div class="message">
         <h1>#(message)</h1>
     </div>
+
+    <div class="routes">
+        <ul>
+            <li><a href="/hello">Hello World</a></li>
+            <li><a href="/info">Info JSON</a></li>
+        </ul>
+    </div>
 }
