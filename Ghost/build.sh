@@ -1,3 +1,4 @@
 #!/bin/bash
 
-docker build -t ghost --build-arg SWIFT_VERSION=$(cat .swift-version) .
+TAG=$(git rev-parse --short HEAD); readonly TAG
+docker build -t packatino/ghost:${TAG} --build-arg SWIFT_VERSION=$(cat .swift-version) .
