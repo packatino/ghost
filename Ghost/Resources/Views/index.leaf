@@ -4,7 +4,7 @@
 	<title>Ghost</title>
 
     <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700,300" rel="stylesheet">
-	<link rel="stylesheet" href="/styles/app.css">
+	<link rel="stylesheet" href="./styles/app.css">
 }
 
 #export("body") {
@@ -14,8 +14,8 @@
 
     <div class="routes">
         <ul>
-            <li><a href="/hello">Hello World</a></li>
-            <li><a href="/info">Info JSON</a></li>
+            <li><a href="./hello">Hello World</a></li>
+            <li><a href="./info">Info JSON</a></li>
         </ul>
     </div>
 }
