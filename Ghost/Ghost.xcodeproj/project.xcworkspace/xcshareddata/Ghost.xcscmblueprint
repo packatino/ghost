@@ -4,11 +4,13 @@
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "6400345F86F53D4096DD633F09AAE772FA6A202B" : 9223372036854775807,
     "8FE2B4BB55A3C9D7B3B78FD1E2302636E924BDDC" : 9223372036854775807,
     "A367B6A816CC3D42284703DB3FBC30C73B4F543D" : 9223372036854775807
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "A07B8D43-ADDB-420F-8EC1-F8D15DDB2862",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "6400345F86F53D4096DD633F09AAE772FA6A202B" : "Ghost\/Ghost\/Packages\/Leaf-1.0.2\/",
     "8FE2B4BB55A3C9D7B3B78FD1E2302636E924BDDC" : "Ghost\/Ghost\/Packages\/Jay-1.0.0\/",
     "A367B6A816CC3D42284703DB3FBC30C73B4F543D" : "Ghost\/"
   },
@@ -16,6 +18,11 @@
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
   "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Ghost\/Ghost.xcodeproj",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/vapor\/leaf.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6400345F86F53D4096DD633F09AAE772FA6A202B"
+    },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/DanToml\/Jay.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
