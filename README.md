@@ -31,3 +31,8 @@ If you want to use another port you can change it in the server configuration fi
 - `/` The root returns a simple HTML page
 - `/hello` returns a hello world string
 - `/info` returns a JSON string with infos about the Ghost
+
+## Docker
+A Docker image of the Ghost is available on [Docker Hub](https://hub.docker.com/r/packatino/ghost/).
+
+If you want to build a Docker image of the Ghost by yourself you can use the Shell script [build_docker_image.sh](https://github.com/packatino/ghost/blob/master/Ghost/build_docker_image.sh). It will build an image based on Ubuntu with Swift and the Ghost web service on top.
