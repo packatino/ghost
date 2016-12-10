@@ -21,7 +21,8 @@ drop.get("hello") { request in
 // For the route /info we return a JSON with infos about this service
 drop.get("info") { request in
     return try JSON(node: [
-        "version": "0.1"
+        "version": "0.1",
+        "vapor version": Vapor.VERSION
         ])
 }
 
